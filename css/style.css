@@ -140,6 +140,10 @@ img {
   padding: 10rem;
 }
 
+.about-text-content > * {
+  margin-bottom: 1.6rem;
+}
+
 .about-text-content h2 {
   font-size: 3rem;
   color: var(--sunny-desaturated-blue);
@@ -147,6 +151,57 @@ img {
 
 .about-text-content p {
   color: var(--sunny-grayishblue);
-  font-size: 1.8rem;
+
+  font-size: 1.5rem;
   line-height: 1.25;
+}
+
+.about-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  color: var(--sunny-desaturated-blue);
+  border-bottom: 0.5rem solid var(--sunny-yellow);
+  padding-inline: 0.5rem;
+  border-radius: 10px;
+}
+
+.about-row:first-of-type .about-item:last-of-type {
+  background-image: url("../images/desktop/image-transform.jpg");
+}
+
+.about-row:nth-of-type(2) .about-item:first-of-type {
+  background-image: url("../images/desktop/image-stand-out.jpg");
+}
+
+.about-row:last-of-type .about-item:first-of-type {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+}
+
+.about-row:last-of-type .about-item:last-of-type {
+  background-image: url("../images/desktop/image-photography.jpg");
+}
+
+.about-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.about-row:last-of-type {
+  text-align: center;
+}
+
+.about-row:last-of-type .about-item h2 {
+  font-size: 1.5rem;
+}
+
+.about-row:last-of-type .about-item p {
+  font-size: 1rem;
+  color: var(--sunny-blue);
+}
+
+.about-row:last-of-type .about-text-content {
+  margin-top: 15rem;
 }
