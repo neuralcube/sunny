@@ -205,3 +205,44 @@ img {
 .about-row:last-of-type .about-text-content {
   margin-top: 15rem;
 }
+
+/* ======Testimonial Section ====== */
+.testimonial {
+  padding: 10rem;
+  text-align: center;
+}
+
+.testimonial h2 {
+  color: var(--sunny-grayishblue);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 4px;
+}
+
+.testimonial-item {
+  padding: 4rem;
+}
+
+.testimonial-item > * {
+  margin-bottom: 2rem;
+}
+
+.testimonial-item img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.testimonial-item h3 {
+  color: var(--sunny-desaturated-blue);
+}
+
+.testimonial-item h3 span {
+  color: var(--sunny-grayishblue);
+  font-family: var(--font-primary);
+  display: block;
+  font-size: 0.9rem;
+}
+
+.testimony {
+  color: var(--sunny-dark-grayish-blue);
+}
